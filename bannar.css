@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    height: -webkit-fill-available;
+}
+
+
+
+/* ===============
+Banner Section
+================= */
+.banner{
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 180px;
+    height: -webkit-fill-available;
+}
+.banner .details{
+
+}
+.banner h1{
+    margin: 0;
+    font-size: 65px;
+}
+.banner p{
+    margin: 25px 0 0 0;
+    font-size: 20px;
+}
+.banner .cover{
+    height: -webkit-fill-available;
+}
+.banner .cover img{
+    height: -webkit-fill-available;
+}
+
+
+
+
+
+
+/* ===============
+Instagram Section
+================= */
+.instagram{
+    background: #fff;
+}
+.instagram h3{
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+}
+.instagram p{
+    margin: 25px 0 0 0;
+    font-size: 18px;
+    text-align: center;
+}
+.instagram .grid_4{
+    display: flex;
+    gap: 15px;
+}
+.instagram .grid_4 img{
+    flex: 1;
+}
+
+
+
+
+
+/* ===============
+subscription Section
+================= */
+.subscription{
+    
+}
+.subscription .main{
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription .main .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.subscription .main .form input{
+    flex: 1;
+}
+.subscription .main .form button{
+    width: 150px;
+}
