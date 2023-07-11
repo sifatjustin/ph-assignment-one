@@ -374,12 +374,12 @@ subscription Section
 /* footer starts here*/
 footer {
     background: #111010;
+    padding-bottom: 45px;
 }
 
-.main-footer {
+ .main-footer {
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -387,7 +387,7 @@ footer {
 
 }
 
-.foot-text {
+footer h3 {
     text-align: center;
     color: #E55473;
     font-family: Lato;
@@ -400,9 +400,10 @@ footer {
 
 .foot-col {
     color: #FFFFFF;
-}
-
-.f-p-text {
+   }
+   
+   
+footer p {
 
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -410,7 +411,7 @@ footer {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    
 }
 
 .last {
@@ -420,6 +421,4 @@ footer {
     font-size: 12px;
     font-style: normal;
     font-weight: 200;
-
-
 }
