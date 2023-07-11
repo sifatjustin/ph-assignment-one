@@ -180,46 +180,6 @@ Best Selling Section
     height: 400px;
 }
 
-
-
-
-
-/* ===============
-Instagram Section
-================= */
-.instagram {
-    background: #fff;
-    padding: 100px 0 100px 0;
-}
-
-.instagram h3 {
-    margin: 0;
-    font-size: 35px;
-    text-align: center;
-}
-
-.instagram p {
-    margin: 25px 0 0 0;
-    font-size: 18px;
-    text-align: center;
-}
-
-.instagram .grid_4 {
-    display: flex;
-    gap: 15px;
-}
-
-.instagram .grid_4 img {
-    flex: 1;
-    width: 100px;
-}
-
-
-
-
-
-
-
 /* ===============
 Hot Deal Section
 ================= */
@@ -242,16 +202,31 @@ Hot Deal Section
     align-items: center;
 }
 
-.hot_deal h1 {
+.hot_deal h3 {
     margin: 0;
-    font-size: 45px;
     text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hot_deal .discount {
+    color: #E55473;
 }
 
 .hot_deal p {
     margin: 25px 0 0 0;
-    font-size: 20px;
     text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .hot_deal .cover {
@@ -262,15 +237,72 @@ Hot Deal Section
 
 .hot_deal .cover img {
     width: 300px;
+    padding-bottom: 30px;
 }
 
+.hot_deal .btn-sec {
+    display: inline-flex;
+    margin-top: 25px;
+    padding: 10px 30px;
+    align-items: flex-start;
+    color: #fff;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+
+
+/* ===============
+Instagram Section
+================= */
+.instagram {
+    background: #fff;
+    padding: 100px 0 100px 0;
+}
+
+.instagram h3 {
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram p {
+    margin: 25px 0 0 0;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.instagram .grid_4 {
+    display: flex;
+    gap: 15px;
+}
+
+.instagram .grid_4 img {
+    flex: 1;
+    width: 100px;
+}
 
 
 
 /* ===============
 subscription Section
 ================= */
-.subscription {}
+.subscription {
+    padding-bottom: 80px;
+}
 
 .subscription .main {
     background-image: url(images/Rectangle\ 9.png);
@@ -281,6 +313,26 @@ subscription Section
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
+}
+
+.subscription h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.subscription p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .subscription .main .form {
@@ -302,6 +354,20 @@ subscription Section
     width: 150px;
 }
 
+.subscription .subs {
+    height: 40px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+
+}
+
+
 
 
 
@@ -312,8 +378,8 @@ footer {
 
 .main-footer {
 
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -337,11 +403,11 @@ footer {
 }
 
 .f-p-text {
-    display: flex;
+
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -351,9 +417,9 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-family: Lato;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 200;
+
 
 }
