@@ -1,109 +1,125 @@
-*{
-    margin: 0%;
+/* universal things that will work on multiple sections and throughout the whole design */
+
+* {
+    box-sizing: border-box;
 }
-.sec-one{
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    height: -webkit-fill-available;
+}
+
+/*first section starts here */
+
+
+.sec-one {
+    height: 850px;
     background: rgba(229, 84, 115, 0.10);
 }
-.main-div{
-    padding: 130px 215px 200px 180px;
-    display: flex;
-    align-self: center;
-    
-    
-    
-}
 
-.img{
-    align-self: center;
+.sec-one .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px;
+
+    gap: 180px;
+    height: -webkit-fill-available;
 
 }
-.main-text{
+
+.sec-one h1 {
     display: flex;
-    width: 680px;
+    width: 708px;
     flex-direction: column;
+    flex-shrink: 0;
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.p-text{
+
+.sec-one p {
     display: flex;
-    padding: 32px 0px 32px 0px;
-width: 634px;
-flex-direction: column;
+    width: 604px;
+    flex-direction: column;
 
-
-
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
 }
-.btn-primary{
-   display: inline-flex;
-   padding: 20px 43px;
-   align-items: flex-start;
-   gap: 10px;
-   border-radius: 8px;
-  background: #E55473;
-  color: #FFFFFF;
+
+.sec-one .cover {
+    height: -webkit-fill-available;
 }
+
+.sec-one .cover img {
+    height: -webkit-fill-available;
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+}
+
+/* this is where section one ends */
+
+
+/* bonus section one */
+.bonus-section{
+    background: #FFF;
+}
+
+
 
 /*this a new section for signup and photo*/
-.sec-two{
-    display: flex;
-    justify-content: center;
+.sec-two {
+    
     height: 600px;
-    border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    background: rgba(229, 84, 115, 0.05);
 }
-.text-two{
- align-self: center;
-}
-.big-two{
+.sec-two .main{
     display: flex;
-color: #272727;
-width: 594px;
-flex-direction: column
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    align-items: center;
+    justify-content: center;
 }
-.discount{
-    color: #E55473;
-    margin-left: 5px;
-}
-.p-two{
-display: flex;
-width: 594px;
-flex-direction: column;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-.img-two{
-   
-    align-self: center;
-}
-/*instragram starts here*/
-.instragram{
-    background: #fff; 
 
-}
-.insta{
+
+.sec-two h3 {
+    display: flex;
+    width: 708px;
+   
     color: #272727;
-text-align: center;
 font-family: Lato;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+margin-top: 200px;
+  
 }
-.insta-p{
+.sec-two p{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: Lato;
@@ -112,85 +128,186 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-.m-img{
+.btn-sec{
+  
+   
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+}
+.button{
     display: flex;
-    padding-left: 240px;
-    padding-right: 240px;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+
+
+.discount {
+    color: #E55473;
+    margin-left: 5px;
+}
+.sec-two.cover{
+    margin-top: 100px;
+    width: 318px;
+height: 420px;
+
+        height: -webkit-fill-available;
+}
+.cover img{
+    
+   margin-top: 100px;
+    height: -webkit-fill-available;
+}
+
+
+/*instragram starts here*/
+.instragram {
+    background: #fff;
+
+}
+
+.insta {
+    color: #272727;
+
+    font-family: Lato;
+
+
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.insta-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.grid_4 {
+    display: flex;
     gap: 24px;
 }
 
-/*bannar starts here*/ 
-.bannar{
+/*bannar starts here*/
+.bannar {
     background-repeat: no-repeat;
-border-radius: 8px;
-background: url(images/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    border-radius: 8px;
+    background: url(images/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 }
-.h-ban{
+
+.h-ban {
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal; 
+    line-height: normal;
 }
-.p-ban{
+
+.p-ban {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-#mail{
+
+#mail {
     width: 700px;
-height: 64px;
-border-radius: 8px;
-background: #FFF;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
 
 }
-/* footer starts here*/
-.main-footer{
-    background: #111010;
-    padding-top: 128px;
-padding-bottom: 128px;
+.subscription{
     
+}
+.subscription .main{
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription .main .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    box-shadow: none;
+}
+
+.subscription .main .form input{
+    flex: 1;
+}
+.subscription .main .form button{
+    width: 150px;
+}
+
+
+
+/* footer starts here*/
+.main-footer {
+    background: #111010;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
 
 }
-.foot-text{
+
+.foot-text {
     text-align: center;
     color: #E55473;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
-.foot-col{
-   color: #FFFFFF ;
+
+.foot-col {
+    color: #FFFFFF;
 }
-.f-p-text{
+
+.f-p-text {
     display: flex;
 
-flex-direction: column;
-flex-shrink: 0;
+    flex-direction: column;
+    flex-shrink: 0;
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.last{
+
+.last {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
