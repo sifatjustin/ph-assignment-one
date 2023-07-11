@@ -38,6 +38,11 @@ Banner Section
 .banner h1 {
     margin: 0;
     font-size: 45px;
+    color: #272727;
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
 
 .banner p {
@@ -411,14 +416,15 @@ footer {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    line-height: 30px;
     
 }
 
-.last {
+.end {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-family: Lato;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
