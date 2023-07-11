@@ -1,3 +1,5 @@
+/*css file starts here*/
+
 * {
     box-sizing: border-box;
 }
@@ -16,7 +18,7 @@ body {
 
 
 /* ===============
-Banner Section
+Bannar Section
 ================= */
 .banner {
     height: 450px;
@@ -68,9 +70,6 @@ Banner Section
     border-radius: 8px;
     background: #E55473;
 }
-
-
-
 
 
 
@@ -370,8 +369,9 @@ subscription Section
 
 
 
-
-/* footer starts here*/
+/* ===============
+footer Section
+================= */
 footer {
     background: #111010;
     padding-bottom: 45px;
@@ -387,7 +387,7 @@ footer {
 
 }
 
-footer h3 {
+.main-footer h3 {
     text-align: center;
     color: #E55473;
     font-family: Lato;
@@ -403,7 +403,7 @@ footer h3 {
    }
    
    
-footer p {
+.main-footer p {
 
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
